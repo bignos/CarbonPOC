@@ -20,14 +20,11 @@ async function convert_template(template, data, extention, filename) {
 
 async function run() {
   // JSON structure sample
-  let json_sample = {
-    firstname : 'John',
-    lastname : 'Doe'
-  };
+  let json_sample = JSON.parse(fs.readFileSync('risk_dataset.json'));
 
- await convert_template('./template.odt', json_sample, 'pdf', 'result' );
- await convert_template('./template.odt', json_sample, 'docx', 'result' );
- process.exit();
+  await convert_template('./template.ods', json_sample, 'pdf', 'result' );
+  await convert_template('./template.ods', json_sample, 'xlsx', 'result' );
+  process.exit();
 };
 
 run();

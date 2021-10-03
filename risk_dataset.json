@@ -1,0 +1,70 @@
+{
+  "risks": 
+  [
+    {
+      "name"        : "Risk #1",
+      "impact"      : 3,
+      "probability" : 2
+    },
+    {
+      "name"        : "Risk #2",
+      "impact"      : 3,
+      "probability" : 3
+    },
+    {
+      "name"        : "Risk #3",
+      "impact"      : 1,
+      "probability" : 1
+    },
+    {
+      "name"        : "Risk #4",
+      "impact"      : 3,
+      "probability" : 2
+    },
+    {
+      "name"        : "Risk #5",
+      "impact"      : 2,
+      "probability" : 2
+    },
+    {
+      "name"        : "Risk #6",
+      "impact"      : 1,
+      "probability" : 2
+    },
+    {
+      "name"        : "Risk #7",
+      "impact"      : 2,
+      "probability" : 1
+    },
+    {
+      "name"        : "Risk #8",
+      "impact"      : 2,
+      "probability" : 2
+    },
+    {
+      "name"        : "Risk #9",
+      "impact"      : 3,
+      "probability" : 3
+    },
+    {
+      "name"        : "Risk #10",
+      "impact"      : 2,
+      "probability" : 1
+    }
+  ],
+  "levels":
+  [
+    {
+      "label" : "High",
+      "value" : 1
+    },
+    {
+      "label" : "Moderate",
+      "value" : 2
+    },
+    {
+      "label" : "Low",
+      "value" : 3
+    }
+  ]
+}
