@@ -19,7 +19,7 @@
     {
       "name"        : "Risk #4",
       "impact"      : 3,
-      "probability" : 2
+      "probability" : 2.5
     },
     {
       "name"        : "Risk #5",
@@ -38,17 +38,17 @@
     },
     {
       "name"        : "Risk #8",
-      "impact"      : 2,
+      "impact"      : 2.5,
       "probability" : 2
     },
     {
       "name"        : "Risk #9",
-      "impact"      : 3,
-      "probability" : 3
+      "impact"      : 1.5,
+      "probability" : 2.5
     },
     {
       "name"        : "Risk #10",
-      "impact"      : 2,
+      "impact"      : 2.5,
       "probability" : 1
     }
   ],
